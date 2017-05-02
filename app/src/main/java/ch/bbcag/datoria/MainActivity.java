@@ -16,6 +16,9 @@ import android.view.MenuItem;
 import android.view.View;
 
 
+import ch.bbcag.datoria.view.DashboardFragment;
+import ch.bbcag.datoria.view.HistoryFragment;
+
 import static ch.bbcag.datoria.R.id.container;
 
 public class MainActivity extends AppCompatActivity {

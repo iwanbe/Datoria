@@ -28,13 +28,15 @@ public class HistoryFragment extends Fragment {
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(view.getContext(), android.R.layout.simple_list_item_1);
 
-        adapter.add("Test");
+        adapter.add("Test 8");
         adapter.add("Test 2");
         adapter.add("Test 2");
         adapter.add("Test 2");
         adapter.add("Test 2");
         adapter.add("Test 2");
         adapter.add("Test 2");
+
+        adapter.add("dini muetter");
 
 
         list.setAdapter(adapter);

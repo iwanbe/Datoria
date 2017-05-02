@@ -58,7 +58,7 @@ public class DebtAdapter extends ArrayAdapter<Debt> {
 
         Debt debt = data[position];
         holder.txtTitle.setText(debt.getTitle());
-        holder.txtValue.setText("CHF " + Double.toString(debt.getValue()));
+        holder.txtValue.setText(Double.toString(debt.getValue()) + " CHF");
 
         return row;
     }

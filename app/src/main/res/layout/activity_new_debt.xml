@@ -5,22 +5,38 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="ch.bbcag.datoira.NewDebtActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:gravity="center|top"
+    android:layout_margin="25dp">
 
     <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Betrag "
+        android:id="@+id/new_debt_amount_edit_text"/>
 
     <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name "
+        android:id="@+id/new_debt_lastname_edit_text"/>
 
     <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Vorname "
+        android:id="@+id/new_debt_firstname_edit_text"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Telnr."
+        android:id="@+id/new_debt_tel_edit_text"/>
 
     <Button
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="Erstellen"
+        android:id="@+id/new_debt_create_button"/>
 
 </LinearLayout>

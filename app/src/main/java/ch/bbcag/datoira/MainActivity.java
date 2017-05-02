@@ -21,6 +21,8 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 
+import layout.dashboard;
+
 import static ch.bbcag.datoira.R.id.container;
 
 public class MainActivity extends AppCompatActivity {
@@ -116,6 +118,13 @@ public class MainActivity extends AppCompatActivity {
             switch (position) {
                 case 0:
                     item = new HistoryFragment();
+                    break;
+                case 1:
+                    item = new DashboardFragment();
+                    break;
+                    //Muss noch erstellt werden
+  //              case 2:
+    //                item = new ???Fragment();
             }
 
             return item;

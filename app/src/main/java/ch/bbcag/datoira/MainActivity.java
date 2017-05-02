@@ -60,7 +60,8 @@ public class MainActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Luca leider chasch da nüt mache", Snackbar.LENGTH_LONG)
+
+                Snackbar.make(view, "Luca leider chasch da nuet mache", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });

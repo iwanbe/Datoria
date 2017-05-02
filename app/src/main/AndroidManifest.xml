@@ -20,7 +20,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="ch.bbcag.datoria.NewDebtActivity"></activity>
+        <activity android:name="ch.bbcag.datoria.NewDebtActivity">
+
+        </activity>
     </application>
 
 </manifest>

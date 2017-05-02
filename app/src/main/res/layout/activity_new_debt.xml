@@ -37,6 +37,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Erstellen"
-        android:id="@+id/new_debt_create_button"/>
+        android:id="@+id/new_debt_create_button" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Temp."
+        android:layout_marginTop="200dp"
+        android:id="@+id/new_debt_temp_edit_text"/>
 
 </LinearLayout>

@@ -1,4 +1,4 @@
-package ch.bbcag.datoira;
+package ch.bbcag.datoria;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

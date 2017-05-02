@@ -8,7 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import ch.bbcag.datoira.R;
+import ch.bbcag.datoria.R;
 
 /**
  * A simple {@link Fragment} subclass.

@@ -1,4 +1,4 @@
-package ch.bbcag.datoira;
+package ch.bbcag.datoria;
 
 /**
  * Created by bbetti on 02.05.2017.

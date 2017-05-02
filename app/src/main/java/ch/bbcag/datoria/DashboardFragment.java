@@ -1,4 +1,4 @@
-package ch.bbcag.datoira;
+package ch.bbcag.datoria;
 
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
@@ -8,8 +8,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-
-import java.lang.reflect.Array;
 
 /**
  * Created by bbetti on 02.05.2017.

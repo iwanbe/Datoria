@@ -1,4 +1,4 @@
-package ch.bbcag.datoira;
+package ch.bbcag.datoria;
 
 import android.content.ContentValues;
 import android.database.sqlite.SQLiteDatabase;

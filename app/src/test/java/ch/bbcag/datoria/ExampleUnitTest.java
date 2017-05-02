@@ -1,4 +1,4 @@
-package ch.bbcag.datoira;
+package ch.bbcag.datoria;
 
 import org.junit.Test;
 

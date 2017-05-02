@@ -1,12 +1,9 @@
-package ch.bbcag.datoira;
+package ch.bbcag.datoria;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.provider.BaseColumns;
-import android.text.style.TtsSpan;
-
-import java.security.PublicKey;
 
 /**
  * Created by bhaenl on 02.05.2017.
